@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>My Webpage</title>
+<style>
+
+html {
+  background:yellow;
+color:black;
+font-family: 'Tilt Prism', cursive;
+}
+img {
+  border-width: 10px;
+  border-color: purple;
+  border-style:solid;
+}
+body {
+</style>
+</head>
+<body>
+  <h1>Hello</h1>
+  <a href="/page2.html">See page 2</a>
+ 
+  <p>This is a webpage</p>
+</body>
+</html>
+<h1>Hello World</h1>
+<h2>Hello</h2>
+<input />
+<img
+width="300"
+src="https://cdn.britannica.com/94/193794-050-0FB7060D/Adidas-logo.jpg" >
+</html>
