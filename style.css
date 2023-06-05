@@ -4,7 +4,7 @@ nav {
 
 div.parent {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 200px auto;
   min-height: 100vh;
   grid-gap: 20px;
 }
@@ -21,7 +21,7 @@ div.child {
   margin: 15px;
 }
 p {background:red}
-  .paragraph_2 {
+.paragraph_2 {
   background: blue; 
 }
 #paragraph_3 {
@@ -35,16 +35,38 @@ a {
 }
 nav li {
   list-style-type: none;
+  margin-bottom: 15px;
 }
 
 nav ul {
   padding: 0;
 }
 .block-div {
-  background: turquoise
+  background: turquoise;
   display: block;
   border-width: 2px;
-  border-color black;
+  border-color: black;
   border-style: solid;
   padding: 1rem;
   margin: 2rem;
+}
+
+#spacing-lesson {
+  width: 150px;
+  height:150px;
+  padding: 100px;
+  margin: 50px;
+  margin: auto;
+  margin-top: 25px;
+  text-align: centre;
+}
+
+.inline-div {
+  display: inline;
+  background-color: purple;
+  color: white;
+}
+.bi {
+  margin-right: 10px;
+  margin-left: 10px;
+}
