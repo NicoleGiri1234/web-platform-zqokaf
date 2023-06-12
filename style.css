@@ -10,7 +10,7 @@ div.parent {
 }
 
 div.child {
-  background: gold;
+  background: purple
 } 
 .box {
   width: 100px;
@@ -42,7 +42,7 @@ nav ul {
   padding: 0;
 }
 .block-div {
-  background: turquoise;
+  background: rgb(38, 150, 103);
   display: block;
   border-width: 2px;
   border-color: black;
@@ -51,14 +51,20 @@ nav ul {
   margin: 2rem;
 }
 
-#spacing-lesson {
-  width: 150px;
-  height:150px;
+.spacing-lesson {
+  width: 100px;
+  height:100px;
   padding: 100px;
   margin: 50px;
   margin: auto;
   margin-top: 25px;
-  text-align: centre;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgb(1, 207, 243);
+}
+
+.spacing-lesson {
+  border-radius: 30px
 }
 
 .inline-div {
